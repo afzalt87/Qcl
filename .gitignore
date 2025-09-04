@@ -1,8 +1,0 @@
-.env
-data/html/
-data/img/
-logs/*.log
-reports/*.csv
-.pytest_cache/
-__pycache__/
-.DS_Store
