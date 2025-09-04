@@ -1,0 +1,37 @@
+# Environment
+environment: development
+debug: true
+
+# OpenAI settings
+openai:
+  model: "gpt-4.1"
+  max_tokens: 4000
+  temperature: 0.1
+
+# Processing settings
+processing:
+  batch_size: 10
+  max_queries: null  # null = process all
+  chunk_size: 800
+  chunk_overlap: 400
+
+# Rate limiting
+rate_limit:
+  requests_per_minute: 50
+  concurrent_requests: 5
+  retry_attempts: 3
+
+# File paths
+paths:
+  data_dir: "data"
+  queries_dir: "data/input/queries"
+  guidelines_dir: "data/input/guidelines"
+  images_dir: "data/input/images"
+  output_dir: "data/output"
+  processed_dir: "data/processed"
+  logs_dir: "logs"
+
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

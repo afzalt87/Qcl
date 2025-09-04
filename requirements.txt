@@ -1,0 +1,37 @@
+# Core dependencies for local QCL development
+
+# Async and HTTP
+aiofiles>=24.1.0
+aiohttp>=3.12.14
+
+# Data processing
+pandas>=2.3.1
+numpy>=2.3.1
+
+# Configuration and validation
+pydantic>=2.11.7
+PyYAML>=6.0.2
+python-dotenv>=1.0.1
+
+# OpenAI and ML
+openai>=1.95.1
+tiktoken>=0.9.0
+
+# Web scraping
+requests>=2.32.4
+beautifulsoup4>=4.13.0
+
+# PDF processing
+pypdf>=5.8.0
+
+# Image processing
+Pillow>=11.3.0
+
+# Progress and utilities
+tqdm>=4.67.1
+
+# Optional development tools
+pytest>=8.4.0
+black>=25.1.0
+isort>=6.0.1
+flake8>=7.3.0
